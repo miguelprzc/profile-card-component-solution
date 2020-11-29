@@ -1,11 +1,31 @@
 body {
     font-family: 'Kumbh Sans', sans-serif;
     background-color: hsl(185, 75%, 39%);
-    background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
-    background-repeat:no-repeat, no-repeat;
-    background-position: -55% 170%, 155% -80%;
+    /* background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg'); */
+    /* background-repeat:no-repeat, no-repeat; */
+    /* background-position: -55% 170%, 155% -80%; */
     /* background-position:-270px -590px, 700px 300px; */
     text-align: center;
+}
+
+#top-pattern {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+#bottom-pattern {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    top: 100%;
+    left: 100%;
+    transform: translate(-50%, -50%);
 }
 
 
