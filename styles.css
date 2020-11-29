@@ -6,13 +6,14 @@ body {
     /* background-position: -55% 170%, 155% -80%; */
     /* background-position:-270px -590px, 700px 300px; */
     text-align: center;
+    overflow: hidden;
 }
 
 #top-pattern {
     position: absolute;
     z-index: -1;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     top: 0;
     left: 0;
     transform: translate(-50%, -50%);
@@ -22,7 +23,7 @@ body {
     position: absolute;
     z-index: -1;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     top: 100%;
     left: 100%;
     transform: translate(-50%, -50%);
