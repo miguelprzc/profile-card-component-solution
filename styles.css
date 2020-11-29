@@ -150,14 +150,3 @@ span {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
-
-@media (max-width: 400px) {
-    body {
-        font-family: 'Kumbh Sans', sans-serif;
-        background-color: hsl(185, 75%, 39%);
-        background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
-        background-repeat: no-repeat, no-repeat;
-        background-position: 128% 170%, -25% -70%;
-        text-align: center;
-    }
-}
